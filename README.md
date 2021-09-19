@@ -15,7 +15,7 @@ system AAAAAA, and we receive a new one AAAAAD, our system will need to detect
 AAAAAB and AAAAAC as the missing PNRs.
 
 
-#RESOURCE METHOD CHART:
+## RESOURCE METHOD CHART:
 
 | Resource        | Method | Path    | Parameter    | Status on error             |
 | --------------- | ------ | ------- | ------------ | --------------------------- |
@@ -34,7 +34,7 @@ The system is dockerized, so to build and aggregate the output of the Docker con
 The system gets implemented as a RESTful API on the localhost, port: 5000.
 
 
-#Tests - pytest
+### Tests - pytest
 
 There is a separate "tests" folder with test scripts, that can be run with pytest (requests library needed).
 
